@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  discord-bot-builder:
+    build: .
+    container_name: discord-bot-builder
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./temp:/app/temp
+      - ./logs:/app/logs
+    networks:
+      - builder-network
+
+networks:
+  builder-network:
+    driver: bridge
