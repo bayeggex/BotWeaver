@@ -1,7 +1,7 @@
 # 🤖 BotWeaver - Secure Self-Hosted Discord Bot Builder
 
 <div align="center">
-  <img src="client/public/BotWeaver.png" alt="BotWeaver Logo" width="300"/>
+  <img src="client/BotWeaver.png" alt="BotWeaver Logo" width="300"/>
   
   [![Discord ToS Compliant](https://img.shields.io/badge/Discord%20ToS-Compliant-green)](https://discord.com/terms)
   [![Self-Hosted](https://img.shields.io/badge/Self--Hosted-Security-blue)](https://github.com/bayeggex/BotWeaver)
@@ -49,6 +49,9 @@
 - **Developers** who want to quickly prototype Discord bots
 - **Communities** seeking reliable, self-hosted bot solutions
 - **Educational Purposes** for learning Discord bot development
+
+## 🖼️ Example Screenshot
+![BotWeaver Screenshot](docs/images/screenshot.png)
 
 ## 🚀 Quick Start
 
@@ -192,7 +195,7 @@ npm run client       # Frontend only
 npm run server       # Backend only
 ```
 
-## � Documentation
+## ✍️ Documentation
 
 - [Getting Started Guide](docs/getting-started.md)
 - [API Documentation](docs/api.md)
@@ -200,13 +203,13 @@ npm run server       # Backend only
 - [Docker Deployment](docs/docker.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
-## � Support & Issues
+## 💖 Support & Issues
 
 - **Bug Reports**: [GitHub Issues](https://github.com/bayeggex/BotWeaver/issues)
 - **Feature Requests**: [GitHub Discussions](https://github.com/bayeggex/BotWeaver/discussions)
 - **Security Issues**: Please email security@botweaver.dev
 
-## � License
+## 🧙‍♂️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
